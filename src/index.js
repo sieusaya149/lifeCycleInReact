@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import HelloWorld from './HelloWorld';
 import reportWebVitals from './reportWebVitals';
-
+// render HelloWorld component to div element with id = root
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log("Rendering div element with id = root ")
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <HelloWorld />
 );
 
 // If you want to start measuring performance in your app, pass a function
